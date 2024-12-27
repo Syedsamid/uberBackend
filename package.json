@@ -1,0 +1,24 @@
+{
+  "name": "uberbackend",
+  "version": "1.0.0",
+  "description": "uber",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.12",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9",
+    "twilio": "^5.4.0"
+  }
+}
