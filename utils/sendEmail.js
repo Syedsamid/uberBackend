@@ -21,7 +21,7 @@ async function sendEmail(emailData){
         })
 
         let sending = validateUser.sendMail({
-            from:`From Email Service ${email}`,
+            from:`From Samid ${email}`,
             subject:emailData.subject,
             to:emailData.to,
             text:emailData.text
@@ -40,6 +40,6 @@ async function sendEmail(emailData){
 //     text: "Hii samid how are you",
 // }
 
-sendEmail({subject:" Testing sms Demo",to: "samjalna005@gmail.com", text:"hello samid"});
+sendEmail({subject:" Testing sms Demo",to: "suhail@code.in", text:"hello suhail bhai"});
 
 

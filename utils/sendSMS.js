@@ -21,4 +21,4 @@ async function sendSMS(smsData){
 }
 // export default sendSMS
 
-sendSMS({body:"HEll",to:"+91 9307276349"})
+sendSMS({body:"HEllo",to:"+91 8010939480"})
